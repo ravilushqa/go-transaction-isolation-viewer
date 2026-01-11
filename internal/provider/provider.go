@@ -3,7 +3,7 @@ package provider
 import (
 	"context"
 
-	"txdemo/internal/scenario"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/scenario"
 )
 
 // Provider defines the interface for database providers

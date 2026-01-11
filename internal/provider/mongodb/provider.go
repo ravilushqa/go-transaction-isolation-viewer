@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"txdemo/internal/provider"
-	"txdemo/internal/scenario"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/provider"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/scenario"
 
-	mongoScenarios "txdemo/internal/scenario/mongodb"
+	mongoScenarios "github.com/ravilushqa/go-transaction-isolation-viewer/internal/scenario/mongodb"
 )
 
 // Compile-time interface check

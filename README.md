@@ -31,20 +31,20 @@ An interactive CLI tool that demonstrates database transaction isolation levels 
 
 ```bash
 # Clone and build
-go build -o txdemo ./cmd/txdemo
+go build -o txviewer ./cmd/txviewer
 
 # Or run directly
-go run ./cmd/txdemo
+go run ./cmd/txviewer
 ```
 
 ## Usage
 
 ```bash
 # Run the interactive demo
-./txdemo
+./txviewer
 
 # Or
-go run ./cmd/txdemo
+go run ./cmd/txviewer
 ```
 
 ### Navigation
@@ -57,7 +57,7 @@ go run ./cmd/txdemo
 ## Architecture
 
 ```
-├── cmd/txdemo/           # Entry point
+├── cmd/txviewer/           # Entry point
 ├── internal/
 │   ├── provider/         # Database provider interface
 │   │   └── mongodb/      # MongoDB implementation
@@ -71,7 +71,7 @@ go run ./cmd/txdemo
 1. Create a new package under `internal/provider/<dbname>/`
 2. Implement the `provider.Provider` interface
 3. Create scenarios under `internal/scenario/<dbname>/`
-4. Register the provider in `cmd/txdemo/main.go`
+4. Register the provider in `cmd/txviewer/main.go`
 
 ## License
 

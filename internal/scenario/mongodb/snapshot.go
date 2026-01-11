@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"txdemo/internal/scenario"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/scenario"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

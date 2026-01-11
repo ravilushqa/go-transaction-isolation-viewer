@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"txdemo/internal/provider"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/provider"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"

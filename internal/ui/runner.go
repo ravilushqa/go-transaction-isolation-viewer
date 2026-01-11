@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"txdemo/internal/scenario"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/scenario"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"

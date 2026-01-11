@@ -1,4 +1,4 @@
-module txdemo
+module github.com/ravilushqa/go-transaction-isolation-viewer
 
 go 1.25.5
 

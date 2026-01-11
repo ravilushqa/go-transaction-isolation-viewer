@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"txdemo/internal/provider"
-	"txdemo/internal/provider/mongodb"
-	"txdemo/internal/ui"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/provider"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/provider/mongodb"
+	"github.com/ravilushqa/go-transaction-isolation-viewer/internal/ui"
 
 	tea "github.com/charmbracelet/bubbletea"
 )
